@@ -328,6 +328,9 @@ class Ui_MainWindow(object):
     def OutConsoleLog (self, text):
         self.textEditConsoleInformation.append(str(text)+"\n\n")
 
+    # def Sniffer (self):
+    #
+
 if __name__ == "__main__":
     import sys
 
